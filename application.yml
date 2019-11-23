@@ -53,7 +53,7 @@ spring:
   datasource:
     schema: classpath*:db/mysql/schema.sql
     data: classpath*:db/mysql/data.sql
-    url: jdbc:mysql://localhost:3306/employeedb?useSSL=false
+    url: jdbc:mysql://localhost:3306/
     username: root
     password: root
     initialization-mode: ALWAYS
