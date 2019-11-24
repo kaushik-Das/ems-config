@@ -3,8 +3,9 @@
 # start services on random port by default
 server.port: 0
 
-# embedded database init, supports mysql too trough the 'mysql' spring profile
+# embedded database init, supports mysql too through the 'mysql' spring profile
 spring:
+  profiles: test
   datasource:
     schema: classpath*:db/hsql/schema.sql
     data: classpath*:db/hsql/data.sql
